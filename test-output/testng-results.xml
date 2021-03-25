@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-24T10:22:43 IST" name="Suite1" finished-at="2021-03-24T10:24:23 IST" duration-ms="100227">
+    <groups>
+    </groups>
+    <test started-at="2021-03-24T10:22:43 IST" name="Test1" finished-at="2021-03-24T10:24:23 IST" duration-ms="100227">
+      <class name="com.qait.test.basicTestPOR">
+        <test-method is-config="true" signature="launchMyAppliction()[pri:0, instance:com.qait.test.basicTestPOR@795cd85e]" started-at="2021-03-24T10:22:43 IST" name="launchMyAppliction" finished-at="2021-03-24T10:23:27 IST" duration-ms="43877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchMyAppliction -->
+        <test-method signature="testcheck()[pri:1, instance:com.qait.test.basicTestPOR@795cd85e]" started-at="2021-03-24T10:23:27 IST" name="testcheck" finished-at="2021-03-24T10:23:27 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcheck -->
+        <test-method signature="log_in_gmail()[pri:2, instance:com.qait.test.basicTestPOR@795cd85e]" started-at="2021-03-24T10:23:27 IST" name="log_in_gmail" finished-at="2021-03-24T10:23:43 IST" duration-ms="16368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log_in_gmail -->
+        <test-method signature="compose_an_email()[pri:3, instance:com.qait.test.basicTestPOR@795cd85e]" started-at="2021-03-24T10:23:43 IST" name="compose_an_email" finished-at="2021-03-24T10:24:23 IST" duration-ms="39643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compose_an_email -->
+      </class> <!-- com.qait.test.basicTestPOR -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,0 +1,5 @@
+composeBtn:                    xpath:                    //div[contains(text(),'Compose')]             
+To_email:                      xpath:                    //textarea[@name='to']
+subject:                       xpath:                    //input[@name='subjectbox']
+write_txt:                     xpath:                    //div[@role='textbox']
+sendbtn:                       xpath:                    //div[contains(text(),'Send')][@tabindex='1']

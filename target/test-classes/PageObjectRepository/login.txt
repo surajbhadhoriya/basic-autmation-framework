@@ -1,0 +1,4 @@
+emailId:			id:			   identifierId
+nextButton:         css:          .VfPpkd-RLmnJb
+password:           xpath:        //input[@name='password']
+loginbtn:           xpath:          //div[@class='VfPpkd-RLmnJb']
