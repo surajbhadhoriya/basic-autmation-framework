@@ -8,9 +8,9 @@ pipeline {
     stage ('Compile Stage') {
       steps {
              //withMaven(maven : 'Default') 
-        {
+        //{
         sh 'mvn clean compile'
-        }
+        //}
         
       }
     }
@@ -18,9 +18,9 @@ pipeline {
     {
       steps {
              //withMaven(maven : 'Default') 
-        {
+       // {
         sh 'mvn test'
-        }
+       // }
                  
       }
     }
@@ -29,9 +29,9 @@ pipeline {
     {
       steps{
             // withMaven(maven : 'Default') 
-        {
+       // {
         sh 'mvn deploy'
-        }          
+       // }          
       }
    
     }
