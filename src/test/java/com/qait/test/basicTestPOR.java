@@ -20,6 +20,7 @@ public class basicTestPOR extends TestSessionInitiator {
 	
 	@Test(priority = 2)
 	public void log_in_gmail() throws InterruptedException {
+		Thread.sleep(2000);
 		demo.enter_email_id("ranjeetrj1947@gmail.com");
 		Thread.sleep(3000);
 		demo.click_on_button();
