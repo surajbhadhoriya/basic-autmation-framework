@@ -13,7 +13,7 @@ pipeline {
     }
   stage ('Testing Stage')
     {
-      step {
+      steps {
              withMaven(maven : 'Default') 
         {
         sh 'mvn test'
@@ -24,7 +24,7 @@ pipeline {
     
     stage ('Deployment Stage')
     {
-      step {
+      steps{
              withMaven(maven : 'Default') 
         {
         sh 'mvn deploy'
