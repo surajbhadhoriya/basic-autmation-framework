@@ -9,7 +9,7 @@ pipeline {
       steps {
              //withMaven(maven : 'Default') 
         //{
-        sh 'mvn clean compile'
+        bat 'mvn clean compile'
         //}
         
       }
@@ -19,7 +19,7 @@ pipeline {
       steps {
              //withMaven(maven : 'Default') 
        // {
-        sh 'mvn test'
+        bat 'mvn test'
        // }
                  
       }
@@ -30,7 +30,7 @@ pipeline {
       steps{
             // withMaven(maven : 'Default') 
        // {
-        sh 'mvn deploy'
+        bat 'mvn deploy'
        // }          
       }
    
